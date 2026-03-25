@@ -10,6 +10,8 @@
         <Label Text="{Binding DisplayMessage}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
         <Button Command="{Binding ShowMessageCommand}" Text="Mensagem" />
         <Button Command="{Binding CountCommand}" Text="Contar caracteres" />
+        <Button Command="{Binding CleanCommand}" Text="Limpar Campos" />
+        <Button Command="{Binding OptionCommand}" Text="Exibir Opções" />
         
     </VerticalStackLayout>
 </ContentPage>
