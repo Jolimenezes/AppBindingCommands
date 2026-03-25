@@ -7,6 +7,9 @@
         
         <Entry Text="{Binding Name}" Placeholder="Digite seu nome" />
         <Label Text="{Binding DisplayName}" />
-
+        <Label Text="{Binding DisplayMessage}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+        <Button Command="{Binding ShowMessageCommand}" Text="Mensagem" />
+        <Button Command="{Binding CountCommand}" Text="Contar caracteres" />
+        
     </VerticalStackLayout>
 </ContentPage>
